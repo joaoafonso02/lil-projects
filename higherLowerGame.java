@@ -38,7 +38,7 @@ public class p44 {
 				}	
 			cont++;
 				
-		}while ((x != secret));
+		} while ((x != secret));
 			
 		 System.out.print("\nCongratss!!You guessed the number" + "\nNumber of tries: " + cont);
 				
