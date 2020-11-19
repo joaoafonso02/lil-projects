@@ -7,7 +7,7 @@ public class p44 {
 		
 		System.out.println("\ntry to guess the number I have!");
 				
-		int x, x1, secret;
+		int x, secret;
 		int cont = 0;
 		char resp = 'y';
 		
