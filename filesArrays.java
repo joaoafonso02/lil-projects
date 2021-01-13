@@ -4,15 +4,15 @@ import java.io.*;
 public class p73 {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws IOException { //funcao main
-        //System.out.print("\nIntroduza o valor de comprimento do seu array: ");
-        //menu variaveis
-        //int num = sc.nextInt();
-        //int[] array = new int[num];
+        System.out.print("\nIntroduza o valor de comprimento do seu array: ");
+        menu variaveis
+        int num = sc.nextInt();
+        int[] array = new int[num];
 
         //chamar funcoes
-        //sequence(array);
-        //System.out.println("\nMaximo: " + GetMaxValue(array));
-        //System.out.print("Minimo: " +  GetMinValue(array));
+        sequence(array);
+        System.out.println("\nMaximo: " + GetMaxValue(array));
+        System.out.print("Minimo: " +  GetMinValue(array));
        
         System.out.print("Para concluir escreva o nome do seu ficheiro: ");
         
