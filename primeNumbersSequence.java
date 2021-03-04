@@ -29,7 +29,7 @@ public class p45ll {
 				
 				
 					}
-				}
+			}
 		
 			if(isPrime == false) {
 				//System.out.printf("The number %d is not a prime number\n", number);
