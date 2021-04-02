@@ -176,3 +176,21 @@ def orderlist(newList):
 newList  = [2,1,5,34,7,4,9,3,10]
 
 print(orderlist(newList))
+   
+#returns the year that they will turn 100 years old
+name = input("Enter your name: ")
+
+while not( name.isalpha or name.isspace):
+    name = input("Enter your name: ")
+
+age = int(input("Enter your age: "))
+          
+#funcion imported from python to get the current date 
+from datetime import date
+
+today = date.today()
+
+Year = today.year
+for i in range(age, 100 -1):
+    Year += 1 
+print("You, %s, will do 100 years of your life in %d" % (name, Year))
