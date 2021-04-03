@@ -194,3 +194,18 @@ Year = today.year
 for i in range(age, 100 -1):
     Year += 1 
 print("You, %s, will do 100 years of your life in %d" % (name, Year))
+          
+#function that returns if is a odd/even number
+def evenOdd(number):
+    if number % 2 == 0: print("%d is an even number" % number )
+    else: print("%d is an odd number" % number )
+    if number % 4 == 0: print("%d is also multiple of 4" % number ) 
+
+evenOdd(int(input("Enter a number: ")))
+
+#checkying disible numbs
+num = int(input("number: "))
+check = int(input("Divides for: "))
+
+if(num % check == 0): print("%d is divisible by %d" % (check, num))
+else: print("not possible")
