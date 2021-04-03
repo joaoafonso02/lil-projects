@@ -213,3 +213,7 @@ else: print("not possible")
 #prints an array with elements bellow 5 (1 line) CRAZYYYY
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 print([i for i in a if i < 5])
+
+b = [1, 3, 4, 5, 41, 64, 3, 6, 10 , 352]
+j = int(input("all numbers bellow: "))
+print([i for i in b if i < j])
