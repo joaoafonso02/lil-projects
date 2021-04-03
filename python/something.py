@@ -217,3 +217,32 @@ print([i for i in a if i < 5])
 b = [1, 3, 4, 5, 41, 64, 3, 6, 10 , 352]
 j = int(input("all numbers bellow: "))
 print([i for i in b if i < j])
+
+#returns all the divisors of a numb          
+num = int(input("number: "))
+
+listRange = list(range(1, num+1 ))
+
+lista = []
+
+for i in listRange:
+    if num % i == 0: lista.append(i)
+print(lista)
+          
+#returns a list with common elemnts from 2 different arrays          
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+lista = []
+for i in a:
+    if i in b: lista.append(i)
+print(lista)
+          
+#tests if a word is "capicua"
+smth = input("word: ")
+x = ""
+for i in range(len(smth)):
+    x += smth[len(smth) - i -1]
+
+if smth == x: print("Capicua")
+else: print("Não é uma capicua")
