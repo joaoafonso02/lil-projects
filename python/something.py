@@ -209,3 +209,7 @@ check = int(input("Divides for: "))
 
 if(num % check == 0): print("%d is divisible by %d" % (check, num))
 else: print("not possible")
+
+#prints an array with elements bellow 5 (1 line) CRAZYYYY
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+print([i for i in a if i < 5])
